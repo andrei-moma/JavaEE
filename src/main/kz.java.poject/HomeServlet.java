@@ -10,7 +10,7 @@ public class HomeServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         PrintWriter out = response.getWriter();
-        out.println("<h1>Hello from Servlrt!</h1>");
+        out.print("<h1>Hello from Servlrt!</h1>");
         out.flush();
     }
 
